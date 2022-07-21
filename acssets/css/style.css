@@ -29,13 +29,27 @@
 
 }
 
-.topbar__list-search{
-    margin-right: 16px;
-    display: flex;
-    flex-direction: column;
+.topbar__header-search{
+    margin-right: 30px;
     position: relative;
-   align-items: flex-end;
+    border-bottom: 2px solid #005e9b;
+    width: 210px;
+}
 
+.topbar__header-search-input{
+    border: none;
+    /* border-bottom: 2px solid #005e9b; */
+    outline: none;
+    background-color: transparent;
+    padding: 6px 4px;
+}
+
+.topbar__header-search-icon{
+    position: absolute;
+    top: 0;
+    right: 16px;
+    font-size: 18px;
+    color: #005e9b;
 }
 
 .topbar__list-search-img{
@@ -121,6 +135,7 @@
     padding: 8px 8px;
     width: 120px;
     background-color: #eae8d7;
+    cursor: pointer;
 } 
 
 .social_item-button-text{
@@ -491,6 +506,8 @@
     text-transform: uppercase;
     color: #166396;
     font-weight: 600;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 .process-line{
@@ -621,7 +638,7 @@
 .you-left__heading-text{
     font-size: 80px;
     text-align: center;
-    color: #355e98;
+    color: #146194;
 
 }
 
@@ -629,7 +646,7 @@
     position: absolute;
     top: 50%;
     font-size: 40px;
-    color: #335a94;
+    color: #146194;
 } 
 
 .you-left__heading-year-left{
@@ -654,7 +671,7 @@
 .you-form__heading{
     margin-top: 40px;
     font-size: 60px;
-    color: #335a94;
+    color: #115b8f;
 }
 
 .you-form__info{
@@ -665,11 +682,19 @@
 
 .you-form__text{
     font-size: 20px;
-    color: #335a94;
+    color: #115b8f;
     margin-top: 20px;
-    border-bottom: 2px solid #335a94;
     font-weight: 600;
-    line-height: 60px;
+}
+
+.you-form__info-input{
+    margin-bottom: 12px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid #2f5589;
+    padding: 6px 4px;
+    font-size: 16px;
 }
 .you-form__list{
     list-style: none;
@@ -682,12 +707,14 @@
 }
 
 .you-form__list-item{
-    border: 2px solid #0f578b;
+    border: 2px solid #2f5589;
     border-radius:20px ;
     min-width: 120px;
     padding: 4px 8px;
     margin-bottom: 14px;
     background-color: transparent;
+    color: #2f5589;
+    font-weight: 600;
 }
 
 .you-form__button{
@@ -698,6 +725,16 @@
     background-color: #0f578b;
     border: none;
     color: #e8e6d4;
+}
+
+.you-form__list-item:hover
+{
+    cursor: pointer;
+    background-color: #d3d1bd;
+}
+.you-form__button:hover{
+    cursor: pointer;
+    background-color: #005e9b;
 }
 
 .you-form__text-1{
