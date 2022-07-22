@@ -1,3 +1,29 @@
+:root{
+    --primary-color:#166396;
+    --color-while:#ffff;
+    --color-text:#eae9d9;
+    --color-text2:#005e9b;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
 .mt-top-80{
     margin-top: 80px;
+}
+
+.container__heading-text{
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color:var(--color-text)
 }
